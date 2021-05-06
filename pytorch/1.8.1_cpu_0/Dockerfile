@@ -18,5 +18,3 @@ ln -sf /usr/share/zoneinfo/Asia/Taipei /etc/localtime && \
 dpkg-reconfigure -f noninteractive tzdata && \
 pip3 install --upgrade pip && \
 pip3 install torch==1.8.1+cpu torchvision==0.9.1+cpu torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
-
-# test
